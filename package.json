@@ -11,13 +11,25 @@
     "url": "git+https://github.com/warriorthereal/mocha-basic-example.git"
   },
   "devDependencies": {
-   "mocha": "^3.4.1"
- },
+    "eslint-config-airbnb": "^17.1.1",
+    "husky": "^3.0.3",
+    "mocha": "^3.4.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/warriorthereal/mocha-basic-example/issues"
   },
-  "homepage": "https://github.com/warriorthereal/mocha-basic-example#readme"
+  "homepage": "https://github.com/warriorthereal/mocha-basic-example#readme",
+  "dependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
 }
