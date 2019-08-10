@@ -13,7 +13,7 @@ describe('Basic C Tests', () => {
     });
 
     it('Second Test Case', () => {
-      assert.deepEqual(C.SecondTestCase(), 'Arif');
+      assert.deepEqual(C.SecondTestCase(), 'Arfif');
     });
   });
 });
