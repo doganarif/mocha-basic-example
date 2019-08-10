@@ -1,5 +1,5 @@
-var assert = require("assert"); // node.js core module
-var C = require('./cash.js');  // our module
+var assert = require("assert");
+var C = require('./cash.js');
 
 describe('Basic C Tests', function(){
   describe('Module C', function(){
